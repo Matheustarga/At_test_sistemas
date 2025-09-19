@@ -28,7 +28,7 @@ meuBotao.addEventListener("click",function (event) {
             if (regexEmail.test(email)) {
                 console.log("email ok")
                     if (senha.length < 6) {
-                        alert("Senha Inválida")
+                        alert("Senha deve ter pelo menos 6 caracteres")
                     }else{
                         if (email === emailCorreto) {
                             if (senha === senhaCorreta) {
